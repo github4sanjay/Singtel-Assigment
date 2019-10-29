@@ -11,7 +11,7 @@ public class Fish extends Animal {
     ColorBehaviour colorBehaviour;
     SizeBehaviour sizeBehaviour;
 
-    public Fish(){
+    public Fish(){ // default behaviour
         flyBehaviour = new FlyNoWay();
         soundBehaviour = new NoSound();
         swimBehaviour = new SwimByBody();
