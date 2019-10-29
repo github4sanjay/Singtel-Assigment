@@ -1,13 +1,29 @@
 package com.example.demo.model;
 
-import com.example.demo.model.behaviours.Singer;
+import com.example.demo.model.behaviours.FlyBehaviour;
+import com.example.demo.model.behaviours.SingingBehaviour;
+import com.example.demo.model.behaviours.SoundBehaviour;
+import com.example.demo.model.behaviours.SwimBehaviour;
 
-class Bird extends Animal implements Singer {
-    void fly() {
-        System.out.println("I am flying");
+class Bird extends Animal implements SingingBehaviour {
+    FlyBehaviour flyBehaviour;
+    SingingBehaviour singingBehaviour;
+    SoundBehaviour soundBehaviour;
+    SwimBehaviour swimBehaviour;
+
+    public void fly() {
+       flyBehaviour.fly();
     }
 
-    void sing() {
-        System.out.println("I am singing");
+    public void sound() {
+        soundBehaviour.sound();
+    }
+
+    public void sing() {
+        singingBehaviour.sing();
+    }
+
+    public void swim() {
+        swimBehaviour.swim();
     }
 }

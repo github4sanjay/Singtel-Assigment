@@ -1,5 +1,5 @@
 package com.example.demo.model.behaviours;
 
-public interface Singer {
+public interface SingingBehaviour {
     void sing();
 }
