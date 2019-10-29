@@ -1,7 +1,12 @@
 package com.example.demo.model;
 
+import com.example.demo.model.behaviours.WalkBehaviour;
+
 public class Animal {
+
+    WalkBehaviour walkBehaviour;
+
     void walk(){
-        System.out.println("I am walking");
+        walkBehaviour.walk();
     }
 }

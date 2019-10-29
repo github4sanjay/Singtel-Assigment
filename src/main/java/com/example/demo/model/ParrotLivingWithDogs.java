@@ -7,5 +7,7 @@ public class ParrotLivingWithDogs extends Bird{
         flyBehaviour = new FlyWithWings();
         soundBehaviour = new WoofSound();
         swimBehaviour = new SwimNoWay();
+        singingBehaviour = new SingNoWay();
+        walkBehaviour = new WalkOnFeet();
     }
 }
