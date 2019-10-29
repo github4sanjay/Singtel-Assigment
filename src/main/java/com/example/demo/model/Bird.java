@@ -1,6 +1,8 @@
 package com.example.demo.model;
 
-class Bird extends Animal {
+import com.example.demo.model.behaviours.Singer;
+
+class Bird extends Animal implements Singer {
     void fly() {
         System.out.println("I am flying");
     }
