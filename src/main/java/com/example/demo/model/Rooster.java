@@ -6,7 +6,7 @@ public class Rooster extends Bird {
     public Rooster(){
         flyBehaviour = new FlyNoWay();
         soundBehaviour = new CockADoodleDoo();
-        swimBehaviour = new SwimByFeet();
+        swimBehaviour = new SwimNoWay();
         singingBehaviour = new SingNoWay();
         walkBehaviour = new WalkOnFeet();
     }

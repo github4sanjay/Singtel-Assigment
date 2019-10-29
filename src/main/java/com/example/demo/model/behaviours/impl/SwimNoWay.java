@@ -7,4 +7,9 @@ public class SwimNoWay implements SwimBehaviour {
     public void swim() {
         System.out.println("I cant swim");
     }
+
+    @Override
+    public boolean isSwimmer() {
+        return false;
+    }
 }

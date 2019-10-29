@@ -6,7 +6,7 @@ public class Chicken extends Bird {
     public Chicken(){
         flyBehaviour = new FlyNoWay();
         soundBehaviour = new CluckSound();
-        swimBehaviour = new SwimByFeet();
+        swimBehaviour = new SwimNoWay();
         singingBehaviour = new SingNoWay();
         walkBehaviour = new WalkOnFeet();
     }

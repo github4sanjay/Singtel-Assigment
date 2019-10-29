@@ -7,4 +7,9 @@ public class WalkOnFeet implements WalkBehaviour {
     public void walk() {
         System.out.println("I can walk on feet");
     }
+
+    @Override
+    public boolean isWalkable() {
+        return true;
+    }
 }

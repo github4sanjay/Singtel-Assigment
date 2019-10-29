@@ -43,4 +43,16 @@ public class Animal {
     public boolean isFly(){
         return flyBehaviour.isFly();
     }
+
+    public boolean isWalkable(){
+        return walkBehaviour.isWalkable();
+    }
+
+    public boolean isSinger(){
+        return singingBehaviour.isSinger();
+    }
+
+    public boolean isSwimmer(){
+        return swimBehaviour.isSwimmer();
+    }
 }

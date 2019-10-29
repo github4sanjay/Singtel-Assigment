@@ -7,4 +7,9 @@ public class SwimByBody implements SwimBehaviour {
     public void swim() {
         System.out.println("I swim by body");
     }
+
+    @Override
+    public boolean isSwimmer() {
+        return true;
+    }
 }
