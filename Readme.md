@@ -3,7 +3,7 @@
 ## Overview
 ##### Animals modelling and rest-apis
 ![Design Flow of Supply](./models.png)
-##### Swagger UI - http://localhost:8090/swagger-ui.html
+##### RestApis Doc (Swagger UI) - http://localhost:8090/swagger-ui.html
 
 
 ## Getting Started
