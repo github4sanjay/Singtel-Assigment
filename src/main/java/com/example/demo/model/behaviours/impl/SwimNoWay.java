@@ -12,4 +12,9 @@ public class SwimNoWay implements SwimBehaviour {
     public boolean isSwimmer() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "I cant swim";
+    }
 }

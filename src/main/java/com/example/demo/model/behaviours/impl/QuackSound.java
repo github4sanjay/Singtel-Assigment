@@ -8,4 +8,9 @@ public class QuackSound implements SoundBehaviour {
     public void sound() {
         System.out.println("Quack, quack");
     }
+
+    @Override
+    public String toString() {
+        return "Quack, quack";
+    }
 }

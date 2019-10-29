@@ -12,4 +12,9 @@ public class SwimByBody implements SwimBehaviour {
     public boolean isSwimmer() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "I swim by body";
+    }
 }

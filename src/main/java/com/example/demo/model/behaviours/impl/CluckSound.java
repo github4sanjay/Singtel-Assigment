@@ -8,4 +8,9 @@ public class CluckSound implements SoundBehaviour {
     public void sound() {
         System.out.println("Cluck, cluck");
     }
+
+    @Override
+    public String toString() {
+        return "Cluck, cluck";
+    }
 }

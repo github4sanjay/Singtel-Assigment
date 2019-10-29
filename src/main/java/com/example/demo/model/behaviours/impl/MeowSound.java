@@ -8,4 +8,9 @@ public class MeowSound implements SoundBehaviour {
     public void sound() {
         System.out.println("Meow, meow");
     }
+
+    @Override
+    public String toString() {
+        return "Meow, meow";
+    }
 }

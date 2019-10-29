@@ -12,4 +12,9 @@ public class FlyWithWings implements FlyBehaviour {
     public boolean isFly() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "I am flying with wings";
+    }
 }

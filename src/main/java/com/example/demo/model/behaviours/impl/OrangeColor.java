@@ -7,4 +7,9 @@ public class OrangeColor implements ColorBehaviour {
     public void color() {
         System.out.println("I have orange color");
     }
+
+    @Override
+    public String toString() {
+        return "I have orange color";
+    }
 }

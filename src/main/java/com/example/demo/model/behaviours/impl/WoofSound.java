@@ -8,4 +8,9 @@ public class WoofSound implements SoundBehaviour {
     public void sound() {
         System.out.println("Woof, woof");
     }
+
+    @Override
+    public String toString() {
+        return "Woof, woof";
+    }
 }

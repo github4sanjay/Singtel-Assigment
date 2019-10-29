@@ -7,4 +7,9 @@ public class SmallSize implements SizeBehaviour {
     public void size() {
         System.out.println("I have small size");
     }
+
+    @Override
+    public String toString() {
+        return "I have small size";
+    }
 }

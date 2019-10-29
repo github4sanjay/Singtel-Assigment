@@ -12,4 +12,9 @@ public class FlyNoWay implements FlyBehaviour {
     public boolean isFly() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "I cant fly";
+    }
 }

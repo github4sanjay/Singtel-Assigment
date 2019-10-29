@@ -8,4 +8,9 @@ public class GreyColor implements ColorBehaviour {
     public void color() {
         System.out.println("I have grey color");
     }
+
+    @Override
+    public String toString() {
+        return "I have grey color";
+    }
 }

@@ -8,4 +8,9 @@ public class LargeSize implements SizeBehaviour {
     public void size() {
         System.out.println("I have large size");
     }
+
+    @Override
+    public String toString() {
+        return "I have large size";
+    }
 }

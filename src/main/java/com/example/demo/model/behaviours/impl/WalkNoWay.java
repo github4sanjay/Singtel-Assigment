@@ -12,4 +12,9 @@ public class WalkNoWay implements WalkBehaviour {
     public boolean isWalkable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "I cant walk";
+    }
 }

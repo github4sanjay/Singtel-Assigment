@@ -7,4 +7,9 @@ public class CockADoodleDoo implements SoundBehaviour {
     public void sound() {
         System.out.println("cock-a-doodle-doo");
     }
+
+    @Override
+    public String toString() {
+        return "cock-a-doodle-doo";
+    }
 }

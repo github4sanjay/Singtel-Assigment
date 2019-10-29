@@ -12,4 +12,9 @@ public class SingNoWay implements SingingBehaviour {
     public boolean isSinger() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "I cant sing";
+    }
 }

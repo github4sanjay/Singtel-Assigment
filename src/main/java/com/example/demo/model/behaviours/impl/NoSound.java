@@ -6,6 +6,11 @@ public class NoSound implements SoundBehaviour {
 
     @Override
     public void sound() {
-        System.out.println("Cluck, cluck");
+        System.out.println("I dont sound");
+    }
+
+    @Override
+    public String toString() {
+        return "I dont sound";
     }
 }
