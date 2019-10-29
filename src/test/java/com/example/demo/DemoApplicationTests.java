@@ -12,7 +12,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 //@SpringBootTest
 public class DemoApplicationTests {
 
-	Animal[] animals;
+	private Animal[] animals;
+
 	@Before
 	public void before(){
 		animals = new Animal[]{
