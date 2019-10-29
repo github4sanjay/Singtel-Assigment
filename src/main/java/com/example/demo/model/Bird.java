@@ -6,33 +6,12 @@ import com.example.demo.model.behaviours.SoundBehaviour;
 import com.example.demo.model.behaviours.SwimBehaviour;
 import com.example.demo.model.behaviours.impl.*;
 
-class Bird extends Animal {
-    FlyBehaviour flyBehaviour;
-    SingingBehaviour singingBehaviour;
-    SoundBehaviour soundBehaviour;
-    SwimBehaviour swimBehaviour;
-
+public class Bird extends Animal {
     public Bird(){ // default behaviour
         flyBehaviour = new FlyNoWay();
         soundBehaviour = new NoSound();
         swimBehaviour = new SwimNoWay();
         singingBehaviour = new SingNoWay();
         walkBehaviour = new WalkOnFeet();
-    }
-
-    public void fly() {
-       flyBehaviour.fly();
-    }
-
-    public void sound() {
-        soundBehaviour.sound();
-    }
-
-    public void sing() {
-        singingBehaviour.sing();
-    }
-
-    public void swim() {
-        swimBehaviour.swim();
     }
 }

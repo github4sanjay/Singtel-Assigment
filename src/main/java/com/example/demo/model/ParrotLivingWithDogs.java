@@ -2,12 +2,8 @@ package com.example.demo.model;
 
 import com.example.demo.model.behaviours.impl.*;
 
-public class ParrotLivingWithDogs extends Bird{
+public class ParrotLivingWithDogs extends Parrot{
     public ParrotLivingWithDogs(){
-        flyBehaviour = new FlyWithWings();
         soundBehaviour = new WoofSound();
-        swimBehaviour = new SwimNoWay();
-        singingBehaviour = new SingNoWay();
-        walkBehaviour = new WalkOnFeet();
     }
 }
